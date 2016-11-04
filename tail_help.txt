@@ -1,0 +1,16 @@
+Usage: ./project tail [OPTION]... [FILE]...
+Print the last 10 lines of each FILE to standard output.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -c, --bytes=[+]NUM       output the last NUM bytes; or use -c +NUM to
+                             output starting with byte NUM of each file
+
+  -n, --lines=[+]NUM       output the last NUM lines, instead of the last 10;
+			   or use -n +NUM to output starting with line NUM
+
+  -q, 			   never output headers giving file names
+                     
+  -v, 		           always output headers giving file names
+  --help     	           display this help and exit
+      
+
